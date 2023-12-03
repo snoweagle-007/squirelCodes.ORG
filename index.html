@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>squirrelCodes.Org</title> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-areas: 
+                "header header"
+                "nav main";
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: 60px 1fr;
+        }
+
+        header {
+            grid-area: header;
+            background-color: #ff0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        aside {
+            grid-area: nav;
+            background-color: #f0f0f0;
+            padding: 15px;
+        }
+
+        main {
+            grid-area: main;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            padding: 8px;
+            margin-bottom: 10px;
+            background-color: #ddd;
+            cursor: pointer;
+        }
+
+        .video-placeholder {
+            background-color: #aaa;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>squirrelCodes.Org</h1>
+    </header>
+    <aside>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Courses Portal (Coming Soon)</li>
+                <li>Suggestions Portals/ Questions</li>
+                <!-- Add more navigation items as needed -->
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <section class="video">
+            <h2>Video Title</h2>
+            <!-- Placeholder for video content -->
+            
+            <video width="320" height="240" controls>
+        <source src="https://github.com/snoweagle-007/squirrelCodes/blob/main/document_6296301410304658960%20(1)%20(1).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+            <p>Hello All , This is an brief introduction of my reels content. Though, the website seems to be pretty clumsy. As i did this stuff in 30 minutes.</p>
+        </section>
+        <!-- Add more videos as needed -->
+
+        <h2 style="background-color: black;color: aliceblue;"> Proudly Undertaking By @snowEagleCorp</h2>
+        <h3 style="background-color: black; color: blue;"> All rights are reserved under BSD 2-clause "Simplified" license </h3>
+
+    </main>
+</body>
+    
+</html>
